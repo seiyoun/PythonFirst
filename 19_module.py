@@ -15,9 +15,3 @@
 
 # from module_test import test as test3
 # test3()
-
-# モジュールパスを取得できる
-import inspect
-import random
-
-print(inspect.getfile(random))
