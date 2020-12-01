@@ -34,3 +34,8 @@ print(cabinet.values())
 # print(cabinet.clear())
 
 print(cabinet.items())
+
+score = {"a": 1, "b": 2}
+for a, b in score.items():
+    print(a, end="-")
+    print(b)

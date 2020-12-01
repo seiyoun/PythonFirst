@@ -85,3 +85,7 @@ c = test.count("e")
 final = f"{a}{b}{c}!"
 # final =  test[:3] + len(test) + test.count("e") + "!"
 print(final)
+
+# 0埋める
+for num in range(1, 21):
+    print(str(num).zfill(3))
