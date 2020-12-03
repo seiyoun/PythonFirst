@@ -28,3 +28,8 @@ print(test2)
 print("---------")
 test2 = [i.upper() for i in ["a", "b", "c"]]
 print(test2)
+
+print("---------")
+lst = ["a", "b", "c"]
+for index, value in enumerate(lst):
+    print(f"インデックスは{index}/値は{value}")

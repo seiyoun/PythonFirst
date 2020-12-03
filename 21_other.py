@@ -39,9 +39,15 @@
 # print(time.strftime("%Y-%m-%d %H-%M-%S"))
 
 # -----------------DateTime
-# import datetime
+import datetime
 # print(datetime.date.today())
 
 # today = datetime.date.today()
 # td = datetime.timedelta(days=100)
 # print(today + td)
+
+# 経過日
+today = datetime.date.today()
+start = datetime.date(year=2017, month=12, day=22)
+dt = today - start
+print(dt)
